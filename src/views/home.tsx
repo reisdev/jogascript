@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import Editor from "../components/editor";
-import Console from "../components/console";
+import Editor from "../components/Editor";
+import Console from "../components/Console";
 
 export default function () {
     return <section style={{
-        height: "-webkit-fill-available",
+        height: "100%",
         width: "100%", display: "flex",
         backgroundColor: "#C7ECEE"
     }}>
-        <section style={{ flex: 7, padding: 20 }}>
+        <section style={{ flex: 6, padding: 20 }}>
             <h1 style={{
                 fontSize: "2rem"
             }}>JogaScript</h1>
@@ -17,7 +17,7 @@ export default function () {
             </p>
         </section>
         <section style={{
-            flex: 3,
+            flex: 4,
             display: "flex",
             flexDirection: "column"
         }}>
